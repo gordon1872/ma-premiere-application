@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Mon Garage Douaouda</title>
+<title>Garage Douaouda</title>
+<style>
+body{font-family:Arial;text-align:center;background:#f2f2f2;margin:0}
+header{background:#111;color:#ffcc00;padding:30px}
+.box{background:white;margin:15px;padding:20px;border-radius:15px}
+.prix{color:green;font-weight:bold}
+button{background:#111;color:#ffcc00;padding:15px;border-radius:10px}
+</style>
 </head>
 <body>
-<h1>Bienvenue au Garage de Douaouda !</h1>
-<p>Je m'appelle Harrachi, j'apprends à créer des applications.</p>
-<p>Mon premier projet sur GitHub !</p>
-<button>Prendre rendez-vous</button>
+<header><h1>Garage de Douaouda</h1><p>Par Harrachi - Le garage de confiance</p></header>
+<div class="box"><h2>Nos Services</h2>
+<p>Vidange - <span class="prix">3500 DA</span></p>
+<p>Freins - <span class="prix">4000 DA</span></p>
+<p>Diagnostic - <span class="prix">1500 DA</span></p></div>
+<div class="box"><h2>Rendez-vous</h2>
+<input placeholder="Ton nom"><br><br>
+<input placeholder="Ta voiture"><br><br>
+<button onclick="alert('Merci !')">Envoyer</button></div>
+<p>Douaouda - Ouvert Samedi a Jeudi 8h-18h</p>
 </body>
 </html>
